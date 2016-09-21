@@ -9,6 +9,11 @@
   "author": "shkabo",
   "license": "MIT",
   "dependencies": {
+    "dateformat": "^1.0.12",
     "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "really-need": "^1.9.2",
+    "supertest": "^2.0.0"
   }
 }
