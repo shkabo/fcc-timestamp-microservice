@@ -26,6 +26,4 @@ describe('timestamp api test', function() {
             .get('/randomstring')
             .expect({"unix": null,"natural": null}, done);
     });
-})
-//https://github.com/visionmedia/supertest
-//https://glebbahmutov.com/blog/how-to-correctly-unit-test-express-server/
+});
